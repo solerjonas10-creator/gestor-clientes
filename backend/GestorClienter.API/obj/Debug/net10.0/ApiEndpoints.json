@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "GestorClientes.API.Controllers.ClientesController",
+    "Method": "EditCliente",
+    "RelativePath": "clientes-api/Clientes/{id}/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cliente",
+        "Type": "GestionDeClientes.API.Models.DTOs.ClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorClientes.API.Controllers.ClientesController",
+    "Method": "DeleteCliente",
+    "RelativePath": "clientes-api/Clientes/{id}/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorClientes.API.Controllers.ClientesController",
+    "Method": "GetClientesByText",
+    "RelativePath": "clientes-api/Clientes/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busqueda",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorClientes.API.Controllers.ClientesController",
+    "Method": "CreateCliente",
+    "RelativePath": "clientes-api/Clientes/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "GestionDeClientes.API.Models.DTOs.ClienteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorClientes.API.Controllers.ClientesController",
+    "Method": "GetClientes",
+    "RelativePath": "clientes-api/Clientes/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 
+const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
+
 interface FormularioClienteProps {
     isOpen: boolean;
     onClose: () => void;
@@ -40,8 +42,8 @@ export default function FormularioCliente({ isOpen, onClose, onSuccess, initialD
         // determinar si es creación o edición
         const isEdit = initialData && initialData.id !== undefined;
         const url = isEdit
-            ? `https://localhost:7057/clientes-api/Clientes/${initialData.id}/editar`
-            : "https://localhost:7057/clientes-api/Clientes/crear";
+            ? `${baseUrl}/clientes-api/Clientes/${initialData.id}/editar`
+            : `${baseUrl}/clientes-api/Clientes/crear`;
         const method = isEdit ? "PUT" : "POST";
 
         try {

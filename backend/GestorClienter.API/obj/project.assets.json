@@ -2570,11 +2570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonas\\source\\repos\\gestion-clientes\\backend\\GestorClienter.API\\GestorClientes.API.csproj",
+      "projectUniqueName": "C:\\Users\\Jonas\\Downloads\\PruebaApp\\gestor-clientes\\backend\\GestorClienter.API\\GestorClientes.API.csproj",
       "projectName": "GestorClientes.API",
-      "projectPath": "C:\\Users\\Jonas\\source\\repos\\gestion-clientes\\backend\\GestorClienter.API\\GestorClientes.API.csproj",
+      "projectPath": "C:\\Users\\Jonas\\Downloads\\PruebaApp\\gestor-clientes\\backend\\GestorClienter.API\\GestorClientes.API.csproj",
       "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonas\\source\\repos\\gestion-clientes\\backend\\GestorClienter.API\\obj\\",
+      "outputPath": "C:\\Users\\Jonas\\Downloads\\PruebaApp\\gestor-clientes\\backend\\GestorClienter.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

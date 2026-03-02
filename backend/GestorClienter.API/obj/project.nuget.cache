@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9y978wz9/pA=",
+  "dgSpecHash": "jwANNuiANGg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonas\\source\\repos\\gestion-clientes\\backend\\GestorClienter.API\\GestorClientes.API.csproj",
+  "projectFilePath": "C:\\Users\\Jonas\\Downloads\\PruebaApp\\gestor-clientes\\backend\\GestorClienter.API\\GestorClientes.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonas\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",

@@ -4,7 +4,7 @@ import { use, useEffect, useState } from "react";
 import FormularioCliente from "./FormularioCliente";
 import { SkeletonTable, SkeletonSearchBar, SkeletonHeader } from "./SkeletonLoader";
 
-const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
+const baseUrl = "http://localhost:5153"; // cambiar de acuerdo al url del backend
 
 interface Cliente {
   id: number;

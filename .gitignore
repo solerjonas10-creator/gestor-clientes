@@ -1,5 +1,10 @@
-﻿################################################################################
-# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
-################################################################################
+﻿
 
 /backend/.vs
+/backend/.vscode
+/backend/bin
+/backend/obj
+/frontend/node_modules
+/frontend/dist
+/frontend/build
+/frontend/.vscode
